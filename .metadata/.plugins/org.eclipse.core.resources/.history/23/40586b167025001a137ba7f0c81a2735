@@ -1,0 +1,55 @@
+package tafe;
+
+import static io.restassured.RestAssured.given;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+/*import com.carmax.sputnik.tafe.utils.SuiteBase;
+import com.carmax.tafe.apiutils.TAFEEndPoints;
+import com.carmax.tafe.calculateobjects.Calculate.CalculateResponse;
+import com.carmax.tafe.getinputobjects.Getinputs.InputRequest;
+import com.carmax.tafe.getinputobjects.Getinputs.InputResponse;*/
+
+import io.restassured.RestAssured;
+import io.restassured.config.RestAssuredConfig;
+import io.restassured.config.SSLConfig;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+public class TAFE_API_Tests2 extends Suite_Base {
+
+	
+	@Test(groups = { "tafe", "api", "regression" })
+	public void POSTestCase() {
+
+		
+		Inputs objin = new inputs();
+	
+		
+		calculateRequest.inputs.add(objin);*/
+		calculateRequest.inputs.add(new Inputs(1,"tom","check"));
+		calculateRequest.inputs.add(new Inputs(2,"ciai","check"));
+		calculateRequest.inputs.add(new Inputs(3,"hary","check"));
+		
+		
+		/*
+		calculateRequest.inputs[0].id = 12;
+		calculateRequest.inputs[0].displayName = "test";
+		calculateRequest.inputs[0].description = inputResponse.inputs[0].description;
+		calculateRequest.inputs[0].name = inputResponse.inputs[0].name;
+		calculateRequest.inputs[0].ruleName = inputResponse.inputs[0].ruleName;
+		calculateRequest.inputs[0].validation = inputResponse.inputs[0].validation;
+		calculateRequest.inputs[0].value = "2000";
+		
+		calculateRequest.inputs[1].id = 13;
+		calculateRequest.inputs[1].displayName = "tom";
+		calculateRequest.inputs[1].description = inputResponse.inputs[1].description;
+		calculateRequest.inputs[1].name = inputResponse.inputs[1].name;
+		calculateRequest.inputs[1].ruleName = inputResponse.inputs[1].ruleName;
+		calculateRequest.inputs[1].validation = inputResponse.inputs[1].validation;
+		calculateRequest.inputs[1].value = "2000";*/
+	}
+
+}

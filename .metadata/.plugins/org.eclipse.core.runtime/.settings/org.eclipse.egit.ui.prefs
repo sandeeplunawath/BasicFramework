@@ -1,0 +1,2 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>\# WARNING\: head commit changed in the meantime&\#x0A;&\#x0A;commit chnages&\#x0A;&\#x0A;Deserailizing XML content into Class</message>\r\n<message>Added Excel Read Code</message>\r\n<message>Added code for Convert XML To Json</message>\r\n<message>Converting xml file content to json object</message>\r\n</messages>
+eclipse.preferences.version=1

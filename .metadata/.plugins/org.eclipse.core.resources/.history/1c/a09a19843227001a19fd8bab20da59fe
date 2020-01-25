@@ -1,0 +1,12 @@
+package XMLUtil;
+
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+
+public class RuleCalculationResult {
+
+	@JacksonXmlProperty(localName="a:CalculationId")
+	public String CalculationId;
+	
+	@JacksonXmlProperty(localName="a:CalculationType")
+	public String CalculationType;
+}

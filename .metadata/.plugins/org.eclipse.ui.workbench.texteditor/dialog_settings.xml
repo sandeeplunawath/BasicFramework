@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="GetSSN" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="GetSSN"/>
+			<item value="SaveIndividual"/>
+			<item value="SOAP"/>
+			<item value="SOAP-ENV"/>
+			<item value="&lt;Tag&gt;null&lt;/a&gt;"/>
+			<item value=" &lt;Tag&gt;nul&lt;/a&gt;"/>
+			<item value="&lt;a:Tag i:nil=&quot;true&quot;/&gt;"/>
+			<item value="&lt;a:Tag"/>
+			<item value="&#x0D;&#x0A;/*@JsonIgnoreProperties(ignoreUnknown = true)*/"/>
+			<item value="poi"/>
+			<item value="&#x09;&#x09;&lt;&gt;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="&lt;Tag&gt;null&lt;/Tag&gt;"/>
+			<item value=" &lt;Tag&gt;null&lt;/a&gt;"/>
+			<item value="&lt;Tag&gt;nul&lt;/a&gt;"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="336" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="801" key="DIALOG_X_ORIGIN"/>
+		<item value="222" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

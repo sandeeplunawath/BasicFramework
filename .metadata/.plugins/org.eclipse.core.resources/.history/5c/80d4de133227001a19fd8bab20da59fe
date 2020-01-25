@@ -1,0 +1,10 @@
+package XMLUtil;
+
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+
+public class RuleCalculationResult {
+
+	public String CalculationId;
+	
+	public String CalculationType;
+}
