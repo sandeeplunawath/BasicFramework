@@ -8,15 +8,15 @@
     <classes>
       <class name="tests.SampleClass">
         <methods>
+          <include name="teardown"/>
           <include name="initializeDriver"/>
           <include name="one_W3SchoolsestMethod2"/>
-          <include name="one_W3SchoolsestMethod1"/>
         </methods>
       </class> <!-- tests.SampleClass -->
       <class name="tests.SampleClass2">
         <methods>
+          <include name="teardown"/>
           <include name="initializeDriver"/>
-          <include name="two_W3SchoolsestMethod2"/>
           <include name="two_W3SchoolsestMethod1"/>
         </methods>
       </class> <!-- tests.SampleClass2 -->

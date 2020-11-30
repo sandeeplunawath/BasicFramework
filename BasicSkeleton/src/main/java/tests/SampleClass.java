@@ -24,16 +24,16 @@ public class SampleClass  extends TestBase  {
 
 		driver.manage().window().maximize();  
 
-		GenericMethod.Click(driver, By.linkText("JOIN A MEETING"));
+		GenericMethod.Click(driver(), By.linkText("JOIN A MEETING"));
 
 		ExtentReportListeners.getReporter().log(Status.INFO, "Join a meeting");
-		GenericMethod.Click(driver, By.linkText("SIGN IN"));
+		GenericMethod.Click(driver(), By.linkText("SIGN IN"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "sign in");		
 
-		GenericMethod.Click(driver,By.linkText("Plans & Pkkkkkkkkkkkkkkkkkkkkricing"));
+		GenericMethod.Click(driver(),By.linkText("Plans & Pkkkkkkkkkkkkkkkkkkkkricing"));
 
 		ExtentReportListeners.getReporter().log(Status.INFO, "Plandddddddddddddddddddds & Pricing");
-		GenericMethod.Click(driver,By.linkText("Contact Sales"));
+		GenericMethod.Click(driver(),By.linkText("Contact Sales"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "Contact Sales");
 
 		AssertMethods.AssertTrue("hell0", "hell0", "Verifying two feilds");
@@ -43,35 +43,23 @@ public class SampleClass  extends TestBase  {
 	@Test
 	public void one_W3SchoolsestMethod1()
 	{
-		WebDriver driver = getDriver();
-		//driver.navigate().to("https://www.w3schools.com/html/");  
-
-		//driver.manage().window().maximize();  
-
-		GenericMethod.Click(driver,By.linkText("CSS"));
+		GenericMethod.Click(driver(),By.linkText("CSS"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "css");		
-		GenericMethod.Click(driver,By.linkText("SQL"));
+		GenericMethod.Click(driver(),By.linkText("SQL"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "sql");		
-		GenericMethod.Click(driver,By.linkText("PHP"));
+		GenericMethod.Click(driver(),By.linkText("PHP"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "php");		
 		AssertMethods.AssertTrue("two", "two", "Verifying two feilds");
-		driver.quit();
 	}
 	@Test
 	public void one_W3SchoolsestMethod2()
 	{
-		WebDriver driver = getDriver();
-		//driver.navigate().to("https://www.w3schools.com/html/");  
-
-				//driver.manage().window().maximize();  
-
-		GenericMethod.Click(driver,By.linkText("CSS"));
+		GenericMethod.Click(driver(),By.linkText("CSS"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "css");		
-		GenericMethod.Click(driver,By.linkText("SQL"));
+		GenericMethod.Click(driver(),By.linkText("SQL"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "sql");		
-		GenericMethod.Click(driver,By.linkText("PHP"));
+		GenericMethod.Click(driver(),By.linkText("PdddddddddddddddddHP"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "php");		
 		AssertMethods.AssertTrue("two", "two", "Verifying two feilds");
-		driver.quit();
 	}
 }

@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Web Automation Results</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 30, 2020 07:50:59 PM</span></a>
+<a href="#"><span class="badge badge-primary">Nov 30, 2020 08:00:50 PM</span></a>
 </li>
 </ul>
 </div>
@@ -67,6 +67,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -74,86 +75,63 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">two_W3SchoolsestMethod2</p>
+            <p class="name">two_W3SchoolsestMethod1</p>
             <p class="text-sm">
-              <span>19:51:19 PM</span> / <span>30:07:313</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>20:01:09 PM</span> / <span>30:17:421</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">two_W3SchoolsestMethod2</h5>
-<span class='badge badge-success'>11.30.2020 19:51:19</span>
-<span class='badge badge-danger'>11.30.2020 19:51:27</span>
-<span class='badge badge-default'>30:07:313</span>
+<h5 class="test-status text-fail">two_W3SchoolsestMethod1</h5>
+<span class='badge badge-success'>11.30.2020 20:01:09</span>
+<span class='badge badge-danger'>11.30.2020 20:01:26</span>
+<span class='badge badge-default'>30:17:421</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\kavith\git\BasicFramework\BasicSkeleton\src\main\reports\screenshots\two_W3SchoolsestMethod1.png' src="C:\Users\kavith\git\BasicFramework\BasicSkeleton\src\main\reports\screenshots\two_W3SchoolsestMethod1.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:21 PM</td>
+        <td>8:01:17 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (d8094e2b4b9cb332631a24f5bd4b609a)] -> link text: CSS]
+          After clicked[[ChromeDriver: chrome on WINDOWS (b30fbc312bf0728e459b90db31b0793e)] -> link text: CSS]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:21 PM</td>
+        <td>8:01:17 PM</td>
         <td>
           css
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:22 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:01:20 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (d8094e2b4b9cb332631a24f5bd4b609a)] -> link text: SQL]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:22 PM</td>
-        <td>
-          sql
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:23 PM</td>
-        <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (d8094e2b4b9cb332631a24f5bd4b609a)] -> link text: PHP]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:23 PM</td>
-        <td>
-          php
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:23 PM</td>
-        <td>
-          two
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:51:27 PM</td>
-        <td>
-          success
+          no such element: Unable to locate element: {"method":"link text","selector":"SQLabcdefghijk"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVITH-VAIO', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\kavith\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b30fbc312bf0728e459b90db31b0793e
+*** Element info: {Using=link text, value=SQLabcdefghijk}
         </td>
       </tr>
   </tbody>
@@ -166,9 +144,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">one_W3SchoolsestMethod2</p>
+            <p class="name">one_W3SchoolsestMethod1</p>
             <p class="text-sm">
-              <span>19:51:25 PM</span> / <span>30:05:288</span>
+              <span>20:01:19 PM</span> / <span>30:12:232</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -176,10 +154,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">one_W3SchoolsestMethod2</h5>
-<span class='badge badge-success'>11.30.2020 19:51:25</span>
-<span class='badge badge-danger'>11.30.2020 19:51:31</span>
-<span class='badge badge-default'>30:05:288</span>
+<h5 class="test-status text-pass">one_W3SchoolsestMethod1</h5>
+<span class='badge badge-success'>11.30.2020 20:01:19</span>
+<span class='badge badge-danger'>11.30.2020 20:01:31</span>
+<span class='badge badge-default'>30:12:232</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 </div>
 </div>
@@ -189,56 +167,56 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:27 PM</td>
+        <td>8:01:29 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (29da6bbceb1cc89a9a36aad5ef3902e4)] -> link text: CSS]
+          After clicked[[ChromeDriver: chrome on WINDOWS (5f8cb779d2cc476b1fb2a4614678bb90)] -> link text: CSS]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:27 PM</td>
+        <td>8:01:29 PM</td>
         <td>
           css
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:28 PM</td>
+        <td>8:01:30 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (29da6bbceb1cc89a9a36aad5ef3902e4)] -> link text: SQL]
+          After clicked[[ChromeDriver: chrome on WINDOWS (5f8cb779d2cc476b1fb2a4614678bb90)] -> link text: SQL]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:28 PM</td>
+        <td>8:01:30 PM</td>
         <td>
           sql
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:29 PM</td>
+        <td>8:01:31 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (29da6bbceb1cc89a9a36aad5ef3902e4)] -> link text: PHP]
+          After clicked[[ChromeDriver: chrome on WINDOWS (5f8cb779d2cc476b1fb2a4614678bb90)] -> link text: PHP]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:29 PM</td>
+        <td>8:01:31 PM</td>
         <td>
           php
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:29 PM</td>
+        <td>8:01:31 PM</td>
         <td>
           two
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:51:31 PM</td>
+        <td>8:01:31 PM</td>
         <td>
           success
         </td>
@@ -248,86 +226,77 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="fail" test-id="3"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">two_W3SchoolsestMethod1</p>
+            <p class="name">one_W3SchoolsestMethod2</p>
             <p class="text-sm">
-              <span>19:51:27 PM</span> / <span>30:06:471</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>20:01:21 PM</span> / <span>30:13:979</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">two_W3SchoolsestMethod1</h5>
-<span class='badge badge-success'>11.30.2020 19:51:27</span>
-<span class='badge badge-danger'>11.30.2020 19:51:34</span>
-<span class='badge badge-default'>30:06:471</span>
+<h5 class="test-status text-fail">one_W3SchoolsestMethod2</h5>
+<span class='badge badge-success'>11.30.2020 20:01:21</span>
+<span class='badge badge-danger'>11.30.2020 20:01:35</span>
+<span class='badge badge-default'>30:13:979</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 </div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\Users\kavith\git\BasicFramework\BasicSkeleton\src\main\reports\screenshots\one_W3SchoolsestMethod2.png' src="C:\Users\kavith\git\BasicFramework\BasicSkeleton\src\main\reports\screenshots\one_W3SchoolsestMethod2.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:31 PM</td>
+        <td>8:01:32 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (2310c9de5598ca64b36cd6b2ea20d305)] -> link text: CSS]
+          After clicked[[ChromeDriver: chrome on WINDOWS (f6c067074c1ccfbf6264d34c2cc4a7e4)] -> link text: CSS]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:31 PM</td>
+        <td>8:01:32 PM</td>
         <td>
           css
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:31 PM</td>
+        <td>8:01:34 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (2310c9de5598ca64b36cd6b2ea20d305)] -> link text: SQL]
+          After clicked[[ChromeDriver: chrome on WINDOWS (f6c067074c1ccfbf6264d34c2cc4a7e4)] -> link text: SQL]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:31 PM</td>
+        <td>8:01:34 PM</td>
         <td>
           sql
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:33 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:01:34 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (2310c9de5598ca64b36cd6b2ea20d305)] -> link text: PHP]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:33 PM</td>
-        <td>
-          php
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:33 PM</td>
-        <td>
-          two
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:51:34 PM</td>
-        <td>
-          success
+          no such element: Unable to locate element: {"method":"link text","selector":"PdddddddddddddddddHP"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVITH-VAIO', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\kavith\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f6c067074c1ccfbf6264d34c2cc4a7e4
+*** Element info: {Using=link text, value=PdddddddddddddddddHP}
         </td>
       </tr>
   </tbody>
@@ -340,9 +309,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">one_W3SchoolsestMethod1</p>
+            <p class="name">two_W3SchoolsestMethod2</p>
             <p class="text-sm">
-              <span>19:51:28 PM</span> / <span>30:05:617</span>
+              <span>20:01:23 PM</span> / <span>30:09:402</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -350,10 +319,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">one_W3SchoolsestMethod1</h5>
-<span class='badge badge-success'>11.30.2020 19:51:28</span>
-<span class='badge badge-danger'>11.30.2020 19:51:34</span>
-<span class='badge badge-default'>30:05:617</span>
+<h5 class="test-status text-pass">two_W3SchoolsestMethod2</h5>
+<span class='badge badge-success'>11.30.2020 20:01:23</span>
+<span class='badge badge-danger'>11.30.2020 20:01:33</span>
+<span class='badge badge-default'>30:09:402</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 </div>
 </div>
@@ -363,56 +332,56 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:31 PM</td>
+        <td>8:01:32 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (38a63daa27e34954aeb09723006f3d37)] -> link text: CSS]
+          After clicked[[ChromeDriver: chrome on WINDOWS (144798305ebd821eee715e337625daa8)] -> link text: CSS]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:31 PM</td>
+        <td>8:01:32 PM</td>
         <td>
           css
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:32 PM</td>
+        <td>8:01:32 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (38a63daa27e34954aeb09723006f3d37)] -> link text: SQL]
+          After clicked[[ChromeDriver: chrome on WINDOWS (144798305ebd821eee715e337625daa8)] -> link text: SQL]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:32 PM</td>
+        <td>8:01:32 PM</td>
         <td>
           sql
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:33 PM</td>
+        <td>8:01:33 PM</td>
         <td>
-          After clicked[[ChromeDriver: chrome on WINDOWS (38a63daa27e34954aeb09723006f3d37)] -> link text: PHP]
+          After clicked[[ChromeDriver: chrome on WINDOWS (144798305ebd821eee715e337625daa8)] -> link text: PHP]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:33 PM</td>
+        <td>8:01:33 PM</td>
         <td>
           php
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:51:33 PM</td>
+        <td>8:01:33 PM</td>
         <td>
           two
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:51:34 PM</td>
+        <td>8:01:33 PM</td>
         <td>
           success
         </td>
@@ -436,25 +405,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 30, 2020 07:50:59 PM</h3>
+<h3>Nov 30, 2020 08:00:50 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 30, 2020 07:51:34 PM</h3>
+<h3>Nov 30, 2020 08:01:36 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>4</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -470,12 +439,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>4</b> tests passed
+<div><small data-tooltip='50%'>
+<b>2</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='50%'><b>2</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -493,10 +462,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='12%'><b>4</b> events passed</small></div>
+<div><small data-tooltip='8%'><b>2</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>28</b> others
+<small data-tooltip='8%'><b>2</b> events failed,
+<b data-tooltip='%'>20</b> others
 </small>
 </div>
 </div>
@@ -512,7 +481,7 @@
 </div></div>
 <script>
 var timeline = {
-"two_W3SchoolsestMethod2":7.313,"one_W3SchoolsestMethod2":5.288,"two_W3SchoolsestMethod1":6.471,"one_W3SchoolsestMethod1":5.617
+"two_W3SchoolsestMethod1":17.421,"one_W3SchoolsestMethod1":12.232,"one_W3SchoolsestMethod2":13.979,"two_W3SchoolsestMethod2":9.402
 };
 </script>
 <div class="row">
@@ -535,8 +504,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 4,
-failParent: 0,
+passParent: 2,
+failParent: 2,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -552,11 +521,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 4,
-failEvents: 0,
+passEvents: 2,
+failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 28
+infoEvents: 20
 };
 </script>        </div>
       </div>
