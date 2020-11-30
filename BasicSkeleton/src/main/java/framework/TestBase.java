@@ -3,6 +3,7 @@ package framework;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -13,7 +14,8 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class TestBase {
 	private static ThreadLocal<EventFiringWebDriver> webDriverTest = new ThreadLocal<EventFiringWebDriver>();
 
-	@BeforeMethod
+	@BeforeClass
+	//@BeforeMethod
 	public void initializeDriver()
 	{
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "\\src\\main\\Resources\\drivers\\chromedriver.exe");  
@@ -22,8 +24,8 @@ public class TestBase {
 		WebListeners testListner = new WebListeners();
 		event_driver.register(testListner);
 		
-		/*event_driver.navigate().to("https://www.w3schools.com/html/");  
-		event_driver.manage().window().maximize();  */
+		event_driver.navigate().to("https://www.w3schools.com/html/");  
+		event_driver.manage().window().maximize();  
 		webDriverTest.set(event_driver);
 		//extentReprter();
 		

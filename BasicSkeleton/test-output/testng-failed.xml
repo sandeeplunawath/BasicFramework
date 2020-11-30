@@ -4,14 +4,23 @@
   <listeners>
     <listener class-name="framework.ExtentReportListeners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)" parallel="methods">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
     <classes>
-      <class name="tests.SampleClass">
+      <class name="tests.SampleClass_SameURL1">
         <methods>
           <include name="initializeDriver"/>
-          <include name="ZoomMethod"/>
+          <include name="cleanUp"/>
+          <include name="Method2_URL1"/>
         </methods>
-      </class> <!-- tests.SampleClass -->
+      </class> <!-- tests.SampleClass_SameURL1 -->
+      <class name="tests.SampleClass_SameURL2">
+        <methods>
+          <include name="W3SchoolsestMethod"/>
+          <include name="initializeDriver"/>
+          <include name="W3SchoolsestMethod2"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- tests.SampleClass_SameURL2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
