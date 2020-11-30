@@ -13,12 +13,12 @@
 </suite> Suite
  -->
  
- <suite name="Suite" >
+ <suite name="Suite"  parallel = "classes">
 	<listeners>
 		<listener class-name="framework.ExtentReportListeners" />
 	</listeners>
 
-	<test thread-count="5" name="Test" parallel = "classes" >
+	<test thread-count="5" name="Test" >
 		<classes>
 			<class name="tests.SampleClass_SameURL1" />
 			<class name="tests.SampleClass_SameURL2" />

@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
   <listeners>
     <listener class-name="framework.ExtentReportListeners"/>
   </listeners>
   <test thread-count="5" name="Test(failed)" parallel="classes">
     <classes>
-      <class name="tests.SampleClass_SameURL1">
-        <methods>
-          <include name="initializeDriver"/>
-          <include name="cleanUp"/>
-          <include name="Method2_URL1"/>
-        </methods>
-      </class> <!-- tests.SampleClass_SameURL1 -->
       <class name="tests.SampleClass_SameURL2">
         <methods>
           <include name="W3SchoolsestMethod"/>
@@ -21,6 +14,13 @@
           <include name="cleanUp"/>
         </methods>
       </class> <!-- tests.SampleClass_SameURL2 -->
+      <class name="tests.SampleClass_SameURL1">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="cleanUp"/>
+          <include name="Method2_URL1"/>
+        </methods>
+      </class> <!-- tests.SampleClass_SameURL1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

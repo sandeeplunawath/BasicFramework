@@ -11,15 +11,15 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 
 
-public class TestBase {
+public class TestBase1 {
 	private static ThreadLocal<EventFiringWebDriver> webDriverTest = new ThreadLocal<EventFiringWebDriver>();
 	
-	@BeforeClass
-	//@BeforeMethod
+	@BeforeMethod
 	public void initializeDriver()
 	{
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "\\src\\main\\Resources\\drivers\\chromedriver.exe");  
 		WebDriver driver=new ChromeDriver();  		
+		
 		EventFiringWebDriver event_driver = new EventFiringWebDriver(driver);
 		WebListeners testListner = new WebListeners();
 		event_driver.register(testListner);

@@ -2,12 +2,12 @@
 <testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14543" started-at="2020-11-28T10:05:29Z" finished-at="2020-11-28T10:05:44Z">
+  <suite name="Suite" duration-ms="14736" started-at="2020-11-30T12:47:10Z" finished-at="2020-11-30T12:47:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14543" started-at="2020-11-28T10:05:29Z" finished-at="2020-11-28T10:05:44Z">
+    <test name="Test" duration-ms="14736" started-at="2020-11-30T12:47:10Z" finished-at="2020-11-30T12:47:24Z">
       <class name="tests.SampleClass_SameURL1">
-        <test-method status="FAIL" signature="initializeDriver()[pri:0, instance:tests.SampleClass_SameURL1@235ecd9f]" name="initializeDriver" is-config="true" duration-ms="14508" started-at="2020-11-28T10:05:29Z" finished-at="2020-11-28T10:05:44Z">
+        <test-method status="FAIL" signature="initializeDriver()[pri:0, instance:tests.SampleClass_SameURL1@5b0abc94]" name="initializeDriver" is-config="true" duration-ms="14490" started-at="2020-11-30T12:47:10Z" finished-at="2020-11-30T12:47:24Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -40,7 +40,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method status="SKIP" signature="Method2_URL1()[pri:0, instance:tests.SampleClass_SameURL1@235ecd9f]" name="Method2_URL1" duration-ms="0" started-at="2020-11-28T10:05:44Z" finished-at="2020-11-28T10:05:44Z">
+        <test-method status="SKIP" signature="Method2_URL1()[pri:0, instance:tests.SampleClass_SameURL1@5b0abc94]" name="Method2_URL1" duration-ms="0" started-at="2020-11-30T12:47:24Z" finished-at="2020-11-30T12:47:24Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -73,13 +73,13 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method2_URL1 -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:tests.SampleClass_SameURL1@235ecd9f]" name="cleanUp" is-config="true" duration-ms="0" started-at="2020-11-28T10:05:44Z" finished-at="2020-11-28T10:05:44Z">
+        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:tests.SampleClass_SameURL1@5b0abc94]" name="cleanUp" is-config="true" duration-ms="0" started-at="2020-11-30T12:47:24Z" finished-at="2020-11-30T12:47:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- tests.SampleClass_SameURL1 -->
       <class name="tests.SampleClass_SameURL2">
-        <test-method status="FAIL" signature="initializeDriver()[pri:0, instance:tests.SampleClass_SameURL2@1ca3b418]" name="initializeDriver" is-config="true" duration-ms="11454" started-at="2020-11-28T10:05:29Z" finished-at="2020-11-28T10:05:41Z">
+        <test-method status="FAIL" signature="initializeDriver()[pri:0, instance:tests.SampleClass_SameURL2@75c072cb]" name="initializeDriver" is-config="true" duration-ms="14690" started-at="2020-11-30T12:47:10Z" finished-at="2020-11-30T12:47:24Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -112,7 +112,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method status="SKIP" signature="W3SchoolsestMethod()[pri:0, instance:tests.SampleClass_SameURL2@1ca3b418]" name="W3SchoolsestMethod" duration-ms="0" started-at="2020-11-28T10:05:41Z" finished-at="2020-11-28T10:05:41Z">
+        <test-method status="SKIP" signature="W3SchoolsestMethod()[pri:0, instance:tests.SampleClass_SameURL2@75c072cb]" name="W3SchoolsestMethod" duration-ms="0" started-at="2020-11-30T12:47:24Z" finished-at="2020-11-30T12:47:24Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -145,7 +145,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- W3SchoolsestMethod -->
-        <test-method status="SKIP" signature="W3SchoolsestMethod2()[pri:0, instance:tests.SampleClass_SameURL2@1ca3b418]" name="W3SchoolsestMethod2" duration-ms="0" started-at="2020-11-28T10:05:41Z" finished-at="2020-11-28T10:05:41Z">
+        <test-method status="SKIP" signature="W3SchoolsestMethod2()[pri:0, instance:tests.SampleClass_SameURL2@75c072cb]" name="W3SchoolsestMethod2" duration-ms="0" started-at="2020-11-30T12:47:24Z" finished-at="2020-11-30T12:47:24Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -178,7 +178,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- W3SchoolsestMethod2 -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:tests.SampleClass_SameURL2@1ca3b418]" name="cleanUp" is-config="true" duration-ms="0" started-at="2020-11-28T10:05:41Z" finished-at="2020-11-28T10:05:41Z">
+        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:tests.SampleClass_SameURL2@75c072cb]" name="cleanUp" is-config="true" duration-ms="0" started-at="2020-11-30T12:47:24Z" finished-at="2020-11-30T12:47:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
