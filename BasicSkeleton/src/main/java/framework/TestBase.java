@@ -14,18 +14,18 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class TestBase {
 	private static ThreadLocal<EventFiringWebDriver> webDriverTest = new ThreadLocal<EventFiringWebDriver>();
 	
-	@BeforeClass
-	//@BeforeMethod
+	@BeforeMethod
 	public void initializeDriver()
 	{
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "\\src\\main\\Resources\\drivers\\chromedriver.exe");  
 		WebDriver driver=new ChromeDriver();  		
+		driver.get("https://www.w3schools.com/html/");  
+		driver.manage().window().maximize();  
 		EventFiringWebDriver event_driver = new EventFiringWebDriver(driver);
 		WebListeners testListner = new WebListeners();
 		event_driver.register(testListner);
 		
-		event_driver.navigate().to("https://www.w3schools.com/html/");  
-		event_driver.manage().window().maximize();  
+		
 		webDriverTest.set(event_driver);
 	
 		
