@@ -25,11 +25,7 @@ public class TestBase {
 		EventFiringWebDriver event_driver = new EventFiringWebDriver(driver);
 		WebListeners testListner = new WebListeners();
 		event_driver.register(testListner);
-		
-		
 		webDriverTest.set(event_driver);
-	
-		
 	}
 	
 	static ExtentReports extent;
