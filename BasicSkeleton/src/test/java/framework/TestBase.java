@@ -32,7 +32,7 @@ public class TestBase {
 	public static ExtentReports extentReprter()
 	{
 
-		ExtentSparkReporter reporter = new ExtentSparkReporter(System.getProperty("user.dir")+ "\\src\\main\\reports\\index.html");
+		ExtentSparkReporter reporter = new ExtentSparkReporter("./reports/index.html");
 		reporter.config().setReportName("Web Automation Results");
 		reporter.config().setDocumentTitle("Test Results");
 

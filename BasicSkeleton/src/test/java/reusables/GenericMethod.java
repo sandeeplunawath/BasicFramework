@@ -19,7 +19,7 @@ public class GenericMethod {
 	public static String getScreenshotPath(WebDriver webdriver,String fileWithPath) {		
 		TakesScreenshot scrShot =((TakesScreenshot)webdriver);	
 		File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);		
-		String destFilePath = System.getProperty("user.dir")+ "\\src\\main\\reports\\screenshots\\"+fileWithPath+".png";
+		String destFilePath = "./reports/screenshots/"+fileWithPath+".png";
 		File DestFile=new File(destFilePath);		
 		try {
 			FileUtils.copyFile(SrcFile, DestFile);

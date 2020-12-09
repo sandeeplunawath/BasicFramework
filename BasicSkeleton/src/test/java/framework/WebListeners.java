@@ -27,9 +27,11 @@ public class WebListeners extends AbstractWebDriverEventListener  {
 		System.out.println("Navigated to URL : "+url );
 		  ExtentReportListeners.getReporter().log(Status.INFO, "Navigated to URL : "+url );
 	}
+	
+	// For below . is used for relative path, it shld be appended inorder to achieve relative path.
 	public void onException(Throwable throwable, WebDriver driver) {
-		  ExtentReportListeners.getReporter().log(Status.FAIL, throwable.getLocalizedMessage() );
-		  ExtentReportListeners.getReporter().addScreenCaptureFromPath(GenericMethod.getScreenshotPath(driver,ExtentReportListeners.getReporter().getModel().getFullName()));
+		  ExtentReportListeners.getReporter().log(Status.FAIL,throwable.getMessage() + ", /n "+ throwable.getLocalizedMessage() );
+		  ExtentReportListeners.getReporter().addScreenCaptureFromPath("."+GenericMethod.getScreenshotPath(driver,ExtentReportListeners.getReporter().getModel().getFullName()));
 		  driver.quit();
 	  }
 
