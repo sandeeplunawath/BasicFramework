@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.SampleClass">
+      <class name="tests.samplelabda">
         <methods>
-          <include name="W3SchoolsestMethod"/>
-          <include name="initializeDriver"/>
-          <include name="ZoomMethod"/>
+          <include name="testmthod"/>
         </methods>
-      </class> <!-- tests.SampleClass -->
+      </class> <!-- tests.samplelabda -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

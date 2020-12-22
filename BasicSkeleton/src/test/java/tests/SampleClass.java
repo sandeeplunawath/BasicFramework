@@ -58,7 +58,7 @@ public class SampleClass  extends TestBase  {
 		ExtentReportListeners.getReporter().log(Status.INFO, "css");		
 		GenericMethod.Click(driver(),By.linkText("SQL"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "sql");		
-		GenericMethod.Click(driver(),By.linkText("PdddddddddddddddddHP"));
+		GenericMethod.Click(driver(),By.linkText("PHP"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "php");		
 		AssertMethods.AssertTrue("two", "two", "Verifying two feilds");
 	}
