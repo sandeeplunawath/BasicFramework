@@ -7,11 +7,8 @@
 
 	<test thread-count="5" name="Test" parallel="methods">
 		<classes>
-
 			<class name="tests.SampleClass" />
 			<class name="tests.SampleClass2" />
-			<!-- <class name="tests.SampleClass" /> <class name="tests.samplelabda" 
-				/> <class name="tests.SampleClass2" /> -->
 		</classes>
 	</test>
 </suite> <!-- Suite -->

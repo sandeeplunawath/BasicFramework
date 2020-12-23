@@ -14,12 +14,6 @@ public class samplelabda {
 	@Test
 	public void testmthod()
 	{
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "\\src\\main\\Resources\\drivers\\chromedriver.exe");  
-		WebDriver driver=new ChromeDriver();  		
-		driver.get("https://www.w3schools.com/html/");  
-		driver.manage().window().maximize();  
-		System.out.println(driver.getTitle());
-		driver.quit();
 		Map<Integer, Student> ItemToPrice = new HashMap<Integer, Student>(); 
 		Student s1=new Student(1, "Arpit", "M", 19);
 		Student s2=new Student(2, "John", "M", 17);
