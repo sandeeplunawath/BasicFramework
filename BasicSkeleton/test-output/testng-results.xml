@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Suite" duration-ms="11168" started-at="2020-12-23T06:21:19Z" finished-at="2020-12-23T06:21:30Z">
-    <groups>
-    </groups>
-    <test name="Test" duration-ms="11168" started-at="2020-12-23T06:21:19Z" finished-at="2020-12-23T06:21:30Z">
-      <class name="tests.samplelabda">
-        <test-method status="PASS" signature="testmthod()[pri:0, instance:tests.samplelabda@687e99d8]" name="testmthod" duration-ms="11111" started-at="2020-12-23T06:21:19Z" finished-at="2020-12-23T06:21:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testmthod -->
-      </class> <!-- tests.samplelabda -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+<testng-results skipped="0" failed="0" ignored="0"
+	total="1" passed="1">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Suite" duration-ms="11168"
+		started-at="2020-12-23T06:21:19Z" finished-at="2020-12-23T06:21:30Z">
+		<groups>
+		</groups>
+		<test name="Test" duration-ms="11168"
+			started-at="2020-12-23T06:21:19Z" finished-at="2020-12-23T06:21:30Z">
+			<class name="tests.samplelabda">
+				<test-method status="PASS"
+					signature="testmthod()[pri:0, instance:tests.samplelabda@687e99d8]"
+					name="testmthod" duration-ms="11111"
+					started-at="2020-12-23T06:21:19Z"
+					finished-at="2020-12-23T06:21:30Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- testmthod -->
+			</class> <!-- tests.samplelabda -->
+		</test> <!-- Test -->
+	</suite> <!-- Suite -->
 </testng-results>

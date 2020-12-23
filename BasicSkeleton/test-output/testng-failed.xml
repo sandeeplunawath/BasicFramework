@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="framework.ExtentReportListeners"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)" parallel="methods">
-    <classes>
-      <class name="tests.SampleClass">
-        <methods>
-          <include name="teardown"/>
-          <include name="initializeDriver"/>
-          <include name="one_W3SchoolsestMethod2"/>
-        </methods>
-      </class> <!-- tests.SampleClass -->
-      <class name="tests.SampleClass2">
-        <methods>
-          <include name="teardown"/>
-          <include name="initializeDriver"/>
-          <include name="two_W3SchoolsestMethod1"/>
-        </methods>
-      </class> <!-- tests.SampleClass2 -->
-    </classes>
-  </test> <!-- Test(failed) -->
+	<listeners>
+		<listener class-name="framework.ExtentReportListeners" />
+	</listeners>
+	<test thread-count="5" name="Test(failed)" parallel="methods">
+		<classes>
+			<class name="tests.SampleClass">
+				<methods>
+					<include name="teardown" />
+					<include name="initializeDriver" />
+					<include name="one_W3SchoolsestMethod2" />
+				</methods>
+			</class> <!-- tests.SampleClass -->
+			<class name="tests.SampleClass2">
+				<methods>
+					<include name="teardown" />
+					<include name="initializeDriver" />
+					<include name="two_W3SchoolsestMethod1" />
+				</methods>
+			</class> <!-- tests.SampleClass2 -->
+		</classes>
+	</test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
