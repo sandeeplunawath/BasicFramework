@@ -40,7 +40,7 @@ public class SampleClass  extends TestBase  {
 		driver.quit();
 	}
 */
-	@Test
+	/*@Test
 	public void one_W3SchoolsestMethod1()
 	{
 		GenericMethod.Click(driver(),By.linkText("CSS"));
@@ -61,5 +61,5 @@ public class SampleClass  extends TestBase  {
 		GenericMethod.Click(driver(),By.linkText("PHP"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "php");		
 		AssertMethods.AssertTrue("two", "two", "Verifying two feilds");
-	}
+	}*/
 }

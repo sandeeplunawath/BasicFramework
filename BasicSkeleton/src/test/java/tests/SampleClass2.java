@@ -15,7 +15,7 @@ import reusables.GenericMethod;
 
 public class SampleClass2  extends TestBase  {
 
-	@Test
+	/*@Test
 	public void two_W3SchoolsestMethod1()
 	{
 		GenericMethod.Click(driver(),By.linkText("CSS"));
@@ -36,6 +36,6 @@ public class SampleClass2  extends TestBase  {
 		GenericMethod.Click(driver(),By.linkText("PHP"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "php");		
 		AssertMethods.AssertTrue("two", "two", "Verifying two feilds");
-	}
+	}*/
 
 }
