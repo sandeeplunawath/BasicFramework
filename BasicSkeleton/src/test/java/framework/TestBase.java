@@ -2,6 +2,7 @@ package framework;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -19,7 +20,15 @@ public class TestBase {
 	public void initializeDriver()
 	{
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "\\src\\main\\Resources\\drivers\\chromedriver.exe");  
-		WebDriver driver=new ChromeDriver();  		
+		
+		//headless configuration
+		ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
+        options.addArguments("window-size=1200x600");	
+        WebDriver driver=new ChromeDriver(options);  
+        System.out.println("Headless chrome browser execution");
+        
+        //WebDriver driver=new ChromeDriver();  
 		driver.get("https://www.w3schools.com/html/");  
 		driver.manage().window().maximize();  
 		EventFiringWebDriver event_driver = new EventFiringWebDriver(driver);
