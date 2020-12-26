@@ -21,7 +21,7 @@ public class TestBase {
 	public void initializeDriver()
 	{
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "\\src\\main\\Resources\\drivers\\chromedriver.exe");  
-		System.out.println("initialize driver");
+		System.out.println("initialize driver12345");
 		
 		//headless configuration
 		ChromeOptions options = new ChromeOptions();
