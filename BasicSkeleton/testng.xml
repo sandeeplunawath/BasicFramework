@@ -5,10 +5,18 @@
 		<listener class-name="framework.ExtentReportListeners" />
 	</listeners>
 
-	<test thread-count="5" name="Test" parallel="methods">
+	<test thread-count="5" name="Test">
+		<parameter name="browserType" value="Chrome" />
+		<classes>
+			<class name="tests.SampleClass" />
+			<!-- <class name="tests.SampleClass2" /> -->
+		</classes>
+	</test>
+	<!-- <test thread-count="5" name="Test123">
+		<parameter name="browserType" value="firefox" />
 		<classes>
 			<class name="tests.SampleClass" />
 			<class name="tests.SampleClass2" />
 		</classes>
-	</test>
+	</test> -->
 </suite> <!-- Suite -->
