@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="tests">
 	<listeners>
 		<listener class-name="framework.ExtentReportListeners" />
 	</listeners>
@@ -9,14 +9,14 @@
 		<parameter name="browserType" value="Chrome" />
 		<classes>
 			<class name="tests.SampleClass" />
-			<!-- <class name="tests.SampleClass2" /> -->
+			<class name="tests.SampleClass2" />
 		</classes>
 	</test>
-	<!-- <test thread-count="5" name="Test123">
+	<test thread-count="5" name="Test123">
 		<parameter name="browserType" value="firefox" />
 		<classes>
 			<class name="tests.SampleClass" />
 			<class name="tests.SampleClass2" />
 		</classes>
-	</test> -->
+	</test>
 </suite> <!-- Suite -->
