@@ -28,7 +28,7 @@ public class SampleClass  extends TestBase  {
 
 		GenericMethod.Click(driver(), By.linkText("JOIN A MEETING"));
 
-		ExtentReportListeners.getReporter().log(Status.INFO, "Join a meeting");
+		ExtentReportListeners.getReporter().log(Status.INFO, "Join a test meeting");
 		GenericMethod.Click(driver(), By.linkText("SIGN IN"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "sign in");		
 
