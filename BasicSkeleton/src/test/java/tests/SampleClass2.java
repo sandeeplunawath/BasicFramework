@@ -19,7 +19,7 @@ public class SampleClass2  extends TestBase  {
 	public void two_W3SchoolsestMethod1()
 	{
 		GenericMethod.Click(driver(),By.linkText("CSS"));
-		ExtentReportListeners.getReporter().log(Status.INFO, "css");		
+		ExtentReportListeners.getReporter().log(Status.INFO, "css executed information");		
 		GenericMethod.Click(driver(),By.linkText("SQLabcdefghijk"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "sql");		
 		GenericMethod.Click(driver(),By.linkText("PHP"));
