@@ -19,7 +19,7 @@ public class SampleClass2  extends TestBase  {
 	public void two_W3SchoolsestMethod1()
 	{
 		GenericMethod.Click(driver(),By.linkText("CSS"));
-		ExtentReportListeners.getReporter().log(Status.INFO, " updated css executed refire");		
+		ExtentReportListeners.getReporter().log(Status.INFO, " old css executed refire");		
 		GenericMethod.Click(driver(),By.linkText("SQLabcdefghijk"));
 		ExtentReportListeners.getReporter().log(Status.INFO, "sql");		
 		GenericMethod.Click(driver(),By.linkText("PHP"));
