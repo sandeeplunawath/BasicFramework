@@ -23,7 +23,7 @@ public class TestBase {
 	@Parameters({"browserType"})
 	public void initializeDriver(String browserType)
 	{
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "\\src\\main\\Resources\\drivers\\chromedriver.exe");  
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "\\chromedriver.exe");  
 		System.out.println("initialize one :- "+browserType);
 
 		//headless configuration
